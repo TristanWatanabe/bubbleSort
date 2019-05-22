@@ -1,4 +1,4 @@
-const swap = (array, i, j) => {
+function swap (array, i, j) {
     let temp = array[i];
     array[i] = array[j];
     array[j] = temp;
@@ -6,7 +6,8 @@ const swap = (array, i, j) => {
     return array;
 }
 
-const bubbleSort = (array) => {
+
+function bubbleSort (array) {
     let swapped;
 
     do {
