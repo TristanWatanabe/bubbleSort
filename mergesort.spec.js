@@ -12,3 +12,10 @@ describe('Split Array function', function() {
         expect(merge([1,7], [3,4, 6])).toEqual([1,3,4, 6, 7])
     });
   });
+
+  describe('merge sort function', function() {
+    it('returns a sorted array', function() {
+        expect(mergeSort([10,5,15,25, -1])).toEqual([-1, 5, 10, 15, 25])
+        expect(mergeSort([2,4,1,3])).toEqual([1,2,3,4])
+    });
+  });
